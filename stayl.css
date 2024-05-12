@@ -1,0 +1,77 @@
+@keyframes rang{
+    0%{
+        background-color: green;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: blue;
+        top: 0;
+        left: 1000px;
+    }
+    50%{
+        background-color: aqua;
+        border-radius: 50%;
+        top: 400px;
+        left: 1000px;
+    }
+    75%{
+        background-color: black;
+        top: 400px;
+        left: 0;
+    }
+    100%{
+        background-color: red;
+        top: 0;
+        left: 0;
+        
+    }
+}
+.ggg{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    animation-name: rang;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rang{
+    0%{
+        background-color: green;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: blue;
+        top: 0;
+        left: 1000px;
+    }
+    50%{
+        background-color: aqua;
+        border-radius: 50%;
+        top: 400px;
+        left: 1000px;
+    }
+    75%{
+        background-color: black;
+        top: 400px;
+        left: 0;
+    }
+    100%{
+        background-color: red;
+        top: 0;
+        left: 0;
+        
+    }
+}
+.bbb{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    animation-name: rang;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-duration: ;
+}
